@@ -1,0 +1,26 @@
+{
+  "name": "angry-moustache/deviantart-rss",
+  "description": "Package for calling the DeviantArt RSS",
+  "keywords": [],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "files": [
+        "src/helpers.php"
+    ],
+    "psr-4": {
+      "AngryMoustache\\DeviantartRss\\": "src/",
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "AngryMoustache\\DeviantartRss\\DeviantartRssServiceProvider"
+        ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
