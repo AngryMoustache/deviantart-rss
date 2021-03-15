@@ -11,7 +11,7 @@
         "src/helpers.php"
     ],
     "psr-4": {
-      "AngryMoustache\\DeviantartRss\\": "src/",
+      "AngryMoustache\\DeviantartRss\\": "src/"
     }
   },
   "extra": {
