@@ -8,6 +8,7 @@ class MediaItem
 {
     public function __construct(SimpleXMLElement $item)
     {
+        $this->link = (string) $item->link;
         $item = $item->children('media', true);
 
         foreach ($item as $key => $value) {
